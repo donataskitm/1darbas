@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/fonas"
+
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_title"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorSriftasRed"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Login_username"
+        android:textColor="@color/colorSriftasRed"
+        android:textColorHint="@color/colorSriftasGrey"
+        android:inputType="textWebEmailAddress" />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="8dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Login_password"
+        android:inputType="textPassword"
+        android:textColor="@color/colorSriftasRed"
+        android:textColorHint="@color/colorSriftasGrey" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_remember_me"
+        android:textColor="@color/colorSriftasGreyD" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Login_login_btn"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="@color/colorSriftasGreyD"
+            />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="8dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Login_register_btn"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="@color/colorSriftasGreyD"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

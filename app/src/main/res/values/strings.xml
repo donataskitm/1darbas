@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Corona</string>
+    <string name="Login_username">Vartotojo vardas</string>
+    <string name="Login_password">Vartotojo slaptažodis</string>
+    <string name="Login_login_btn">Prisijungti</string>
+    <string name="Login_register_btn">Registruotis</string>
+    <string name="app_title">COVID-19 statistika</string>
+    <string name="login_remember_me">Prisiminti mane</string>
+
+</resources>
