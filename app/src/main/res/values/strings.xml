@@ -2,9 +2,17 @@
     <string name="app_name">Corona</string>
     <string name="Login_username">Vartotojo vardas</string>
     <string name="Login_password">Vartotojo slaptažodis</string>
+    <string name="Reg_email">El. pašto adresas</string>
     <string name="Login_login_btn">Prisijungti</string>
     <string name="Login_register_btn">Registruotis</string>
     <string name="app_title">COVID-19 statistika</string>
     <string name="login_remember_me">Prisiminti mane</string>
-
+    <string name="login_invalid_credentials_message">Neteisingi prisijungimo duomenys</string>
+    <string name="login_invalid_credentials_message_password">Klaida. Naudokite mažasias, didžiasias raides, skaičius ir simbolius .!@_</string>
+    <string name="login_invalid_credentials_message_name">Klaida. Naudokite mažasias ir didžiasias raides.</string>
+    <string name="login_invalid_credentials_message_email">Klaida. Naudokite mažasias, didžiasias raides, skaičius ir simbolius @._- </string>
+    <string name="reg_title">Naujo vartotojo registracija</string>
+    <string name="logo_description">Logotipas</string>
+    <string name="register_successful_1">Užregistruotas vartotojas:"</string>
+    <string name="register_successful_2">"Prisijunkite!</string>
 </resources>
