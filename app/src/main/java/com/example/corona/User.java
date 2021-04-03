@@ -23,20 +23,20 @@ public class User {
    public User (){
    }
 
-   //Konstr. skirtas prisijungimo langui
+   //Konstr. skirtas registracijos langui, perduosime tris parametrus
    public User (String username, String password, String email){
       this.username=username;
       this.password=password;
       this.email=email;
    }
 
-   //konstrukorius registracijos langui
+   //konstrukorius prisijungimo langui, perduosime du parametrus
    public User (String username, String password){
       this.username=username;
       this.password=password;
 //3. Geteriai ir seteriai
    }
-      //konstruktorius skirtas naujo vartotojo registracijai
+      //konstruktorius (jau panaudotas prisijungimo lange LoginActivity)
    public User (Context context){
       this.sharedPreferences = context.getSharedPreferences(PREFERENCES_PACKAGE_NAME, Context.MODE_PRIVATE);
    }
