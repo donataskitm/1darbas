@@ -15,4 +15,6 @@
     <string name="logo_description">Logotipas</string>
     <string name="register_successful_1">Užregistruotas vartotojas:"</string>
     <string name="register_successful_2">"Prisijunkite!</string>
+    <string name="search_loading_data">Palaukite kol bus parodyti duomenys</string>
+    <string name="search_error_reading_data">Nepavyko nuskaityti duomenis iš API. Daugiau info:</string>
 </resources>
