@@ -17,4 +17,6 @@
     <string name="register_successful_2">"Prisijunkite!</string>
     <string name="search_loading_data">Palaukite kol bus parodyti duomenys</string>
     <string name="search_error_reading_data">Nepavyko nuskaityti duomenis iš API. Daugiau info:</string>
+    <string name="search_no_results">Nera duomenu pagal uzklausa</string>
+
 </resources>
