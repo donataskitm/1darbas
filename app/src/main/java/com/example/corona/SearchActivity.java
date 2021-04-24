@@ -1,6 +1,7 @@
 package com.example.corona;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SearchView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -12,7 +13,8 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.SearchView;
+//import android.widget.SearchView;
+
 import android.widget.Toast;
 
 import org.json.JSONArray;
@@ -43,8 +45,8 @@ public class SearchActivity extends AppCompatActivity { //AppCompatActivity klas
         // ProgressDialog progressDialog = new ProgressDialog(SearchActivity.this);
     }
 
-
-   /* public boolean onCreateOptionsMenu(Menu menu) { // adds item to action bar
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) { // adds item to action bar
         getMenuInflater().inflate(R.menu.search, menu); // Get Search item from action bar and Get Search service
         MenuItem searchItem = menu.findItem(R.id.action_search); //vartotojas irasys duomenis
         SearchManager searchManager = (SearchManager) SearchActivity.this.getSystemService(Context.SEARCH_SERVICE);
@@ -65,6 +67,7 @@ public class SearchActivity extends AppCompatActivity { //AppCompatActivity klas
 
     @Override
     protected void onNewIntent(Intent intent) { // Get search query
+        super.onNewIntent(intent);
         if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
             String query = intent.getStringExtra(SearchManager.QUERY);  //vartotojas ives pvz Italy
             if (searchView != null) {
@@ -85,7 +88,6 @@ ArrayList<Corona> coronaListByCountry = JSON.getCoronaListByCountry(coronaList, 
 
 
 
-*/
 
     private class AsyncFetch extends AsyncTask<String, String, JSONObject> { //lygiag uzd. apdorot //AsyncTask perduoda parametrus i doInBackground
         //https://medium.com/nybles/making-use-of-the-android-asynctask-class-30469180a1d2
